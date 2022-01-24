@@ -1,0 +1,113 @@
+*{
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  body {
+    background-color: black;
+    margin: 0;
+  }
+
+  .navbar {
+    background-color: white;
+  }
+
+  .row {
+    height: 50px;
+    padding: 10px 155px 12px 115px;
+  }
+
+  .column1 {
+    height: 100%;
+    float: left;
+    width: 90%;
+  }
+
+  .logo {
+    margin-top: -15px;
+    height:80;
+    width:200;
+  }
+
+  .column2 {
+    height: 100%;
+    float: left;
+    width: 10%;
+    margin-top: 10px;
+  }
+
+  button {
+    color: black;
+    font-weight: 600;
+    float: right;
+    border: none;
+    background-color: yellowgreen;
+    padding: 12px 25px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    transition: 200ms;
+    scale: 2.5;
+    background-color: crimson;
+    color: white;
+  }
+  
+  .box-container {
+    padding: 2rem 7%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 4.5rem;
+    background-color: black;
+  }
+
+  .loading {
+    margin-top:none;
+    width: 33%;
+    margin-left: 25rem;
+    margin-top: 5rem;
+  }
+
+  .column3 {
+    float: left;
+    width: 33%;
+  }
+
+  .box {
+    border: 2px solid white;
+    max-width: 350px;
+    max-height: 250px;
+    margin: 10px 5px;
+    text-align: center;
+    font-family:ui-sans-serif;
+    padding: 20px;
+    background-color: cadetblue;
+    border-radius: 5px;
+  }
+  
+  .box:hover {
+    transition: 400ms;
+    transform: translateY(-3px);
+    background-color: crimson;
+    color: white;
+  }
+
+  .avatar {
+    border-radius: 50%;
+  }
+  
+  .name {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .email {
+    color: black;
+    font-size: 18px;
+    overflow-wrap: anywhere;
+  }
+
+  .id {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
